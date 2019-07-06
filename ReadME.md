@@ -2,7 +2,6 @@
 
 ```
 Muhammed Pektaş 141220024 , Cevher Söylemez 14122004
-Ders: Bilgisayarlı Görmeye Giriş^
 ```
 **ÖZET**
 Bu çalışmanın teması otonom araçlar olarak seçilmiştir. Bu tema doğrultusunda trafik lambası, insan ve araç
@@ -30,9 +29,8 @@ nesne etiketlenmiştir. Etiketleme işlemi için Şekil deki ekran görüntüsü
 kullanılmıştır.[2]
 
 <img src="./resources/labelimg.jpg" />
-```
+
 Şekil 1 - Etiketleme Yazılımı Ekran Görüntüsü
-```
 
 ```
 Etiketlenen veri kümesine bazı görüntüler Şekil 2’de verilmiştir.
