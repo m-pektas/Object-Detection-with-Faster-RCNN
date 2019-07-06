@@ -1,8 +1,7 @@
-`# Nesne Tespiti
-
+# Nesne Tespiti
 ```
 Muhammed Pektaş 141220024 , Cevher Söylemez 14122004
-Ders: Bilgisayarlı Görmeye Giriş^
+Ders: Bilgisayarlı Görmeye Giriş
 ```
 **ÖZET**
 Bu çalışmanın teması otonom araçlar olarak seçilmiştir. Bu tema doğrultusunda trafik lambası, insan ve araç
@@ -29,19 +28,16 @@ boyunca seçilen 3 adet sınıf için 42 adet resim kullanılmıştır. Bu 42 ad
 nesne etiketlenmiştir. Etiketleme işlemi için Şekil deki ekran görüntüsüne sahip labelmg yazılımı
 kullanılmıştır.[2]
 
-<img src="./resources/labelimg.jpg" />
-```
-Şekil 1 - Etiketleme Yazılımı Ekran Görüntüsü
-```
+<img align="center" src="./resources/labelimg.jpg" />
 
-```
+<p align="center">Şekil 1 - Etiketleme Yazılımı Ekran Görüntüsü</p>
+
 Etiketlenen veri kümesine bazı görüntüler Şekil 2’de verilmiştir.
-```
 
-<img src="./resources/examples.png" />
-```
-Şekil 2 - Veri Kümesinden Bazı Örnekler
-```
+<img align="center" src="./resources/examples.png" />
+
+<p align="center">Şekil 2 - Veri Kümesinden Bazı Örnekler</p>
+
 Eğitim için Faster-RCNN kullanılmıştır. Bu model diğer RCNN modellerine kıyasla en
 hızlı tahmin işlemini gerçekleştiren modeldir.
 
@@ -57,7 +53,7 @@ RCNN modellerinin karşılaştırması Tablo 1’de gösterilmektedir. Tablodan 
 aşamaları Şekil 3’de gösterilmiştir.
 
 
-<img src="./resources/faster_rcnn.png" />
+<img align="center" src="./resources/faster_rcnn.png" />
 ```
 Şekil 3 - Faster RCNN yaklaşımı[4]
 ```
@@ -73,7 +69,7 @@ Sınıflandırıcı olarak VGG16 derin öğrenme modeli seçilmiştir. [5] Bu mo
 Şekil 4’te verilmiştir.
 
 
-<img src="./resources/vgg_16.png" />
+<img align="center" src="./resources/vgg_16.png" />
 ```
 Şekil 4 - VGG16 Mimarisi [6]
 ```
@@ -101,11 +97,11 @@ Tablo 2 - Hatalar Tablosu
 ```
 Çalışmanın sonucu Şekil 5 ve Şekil 6’da gösterilmiştir.
 
-<img src="./resources/output1.png" />
+<img align="center" src="./resources/output1.png" />
 Şekil 5 - Örnek Çıktı 1
 
 
-<img src="./resources/output2.png" />
+<img align="center" src="./resources/output2.png" />
 ```
 Şekil 6 - Örnek Çıktı
 ```
