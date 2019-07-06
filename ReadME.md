@@ -82,16 +82,12 @@ Eğitim çok başarılı sonuçlar elde etmek için yeterli değildir. Ancak eld
 edilen hata metriklerinin değerleri tablo 2’ de verilmiştir.
 
 ```
-RPN’den gelen bölgelerin sınıflandırma
-doğruluğu
-```
-
-```
-RPN sınıflandırıcı hatası 0.
-RPN regresyon hatası 0.
-Tespit edici sınıflandırma hatası 0.
-Tespit edici regresyon hatası 0.
-Toplam Hata 0.
+RPN’den gelen bölgelerin sınıflandırma doğruluğu : 0.9895
+RPN sınıflandırıcı hatası                        : 0.7705
+RPN regresyon hatası                             : 0.0082
+Tespit edici sınıflandırma hatası                : 0.0296
+Tespit edici regresyon hatası                    : 0.0214
+Toplam Hata                                      : 0.8298
 Tablo 2 - Hatalar Tablosu
 ```
 Çalışmanın sonucu Şekil 5 ve Şekil 6’da gösterilmiştir.
