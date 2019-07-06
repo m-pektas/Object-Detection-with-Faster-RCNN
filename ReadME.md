@@ -1,4 +1,4 @@
-# Nesne Tespiti
+# Faster-RCNN ile Nesne Tespiti
 ```
 Muhammed Pektaş 141220024 , Cevher Söylemez 14122004
 Ders: Bilgisayarlı Görmeye Giriş
