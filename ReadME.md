@@ -28,13 +28,13 @@ boyunca seçilen 3 adet sınıf için 42 adet resim kullanılmıştır. Bu 42 ad
 nesne etiketlenmiştir. Etiketleme işlemi için Şekil deki ekran görüntüsüne sahip labelmg yazılımı
 kullanılmıştır.[2]
 
-<img align="center" src="./resources/labelimg.jpg" />
+<img src="./resources/labelimg.jpg" />
 
 <p align="center">Şekil 1 - Etiketleme Yazılımı Ekran Görüntüsü</p>
 
 Etiketlenen veri kümesine bazı görüntüler Şekil 2’de verilmiştir.
 
-<img align="center" src="./resources/examples.png" />
+<img src="./resources/examples.png" />
 
 <p align="center">Şekil 2 - Veri Kümesinden Bazı Örnekler</p>
 
@@ -53,10 +53,9 @@ RCNN modellerinin karşılaştırması Tablo 1’de gösterilmektedir. Tablodan 
 aşamaları Şekil 3’de gösterilmiştir.
 
 
-<img align="center" src="./resources/faster_rcnn.png" />
-```
-Şekil 3 - Faster RCNN yaklaşımı[4]
-```
+<img src="./resources/faster_rcnn.png" />
+
+<p align="center">Şekil 3 - Faster RCNN yaklaşımı[4]</p>
 
 Şekil 3’deki gösterimde bahsedilen **_“conv layers”_** derin öğrenme çalışan kişilerin
 yakından tanıyacağı konvulüsyon katmanıdır. Bu katman sonucunda elde edilen özellikler
@@ -70,9 +69,9 @@ Sınıflandırıcı olarak VGG16 derin öğrenme modeli seçilmiştir. [5] Bu mo
 
 
 <img align="center" src="./resources/vgg_16.png" />
-```
-Şekil 4 - VGG16 Mimarisi [6]
-```
+
+<p align="center">Şekil 4 - VGG16 Mimarisi [6]</p>
+
 Yapılan bu ön hazırlıklar ve parametre ayarlamalarından sonra imkanlar dahilinde yaklaşık 10-
 12 saat boyunca model 35 epoch eğitmiştir.
 
@@ -98,13 +97,13 @@ Tablo 2 - Hatalar Tablosu
 Çalışmanın sonucu Şekil 5 ve Şekil 6’da gösterilmiştir.
 
 <img align="center" src="./resources/output1.png" />
-Şekil 5 - Örnek Çıktı 1
+<p align="center">Şekil 5 - Örnek Çıktı 1</p>
 
 
-<img align="center" src="./resources/output2.png" />
-```
-Şekil 6 - Örnek Çıktı
-```
+<img src="./resources/output2.png" />
+
+<p align="center">Şekil 6 - Örnek Çıktı</p>
+
 
 ### KAYNAKLAR
 
