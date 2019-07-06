@@ -1,4 +1,4 @@
-`# Nesne Tespiti
+# Faster-RCNN ile Nesne Tespiti
 
 ```
 Muhammed Pektaş 141220024 , Cevher Söylemez 14122004
@@ -30,16 +30,16 @@ kullanılmıştır.[2]
 
 <img src="./resources/labelimg.jpg" />
 
-Şekil 1 - Etiketleme Yazılımı Ekran Görüntüsü
+<p align="center">Şekil 1 - Etiketleme Yazılımı Ekran Görüntüsü </p>
 
-```
+
 Etiketlenen veri kümesine bazı görüntüler Şekil 2’de verilmiştir.
-```
+
 
 <img src="./resources/examples.png" />
-```
-Şekil 2 - Veri Kümesinden Bazı Örnekler
-```
+
+<p align="center">Şekil 2 - Veri Kümesinden Bazı Örnekler</p>
+
 Eğitim için Faster-RCNN kullanılmıştır. Bu model diğer RCNN modellerine kıyasla en
 hızlı tahmin işlemini gerçekleştiren modeldir.
 
@@ -56,9 +56,9 @@ aşamaları Şekil 3’de gösterilmiştir.
 
 
 <img src="./resources/faster_rcnn.png" />
-```
-Şekil 3 - Faster RCNN yaklaşımı[4]
-```
+
+<p align="center">Şekil 3 - Faster RCNN yaklaşımı[4]</p>
+
 
 Şekil 3’deki gösterimde bahsedilen **_“conv layers”_** derin öğrenme çalışan kişilerin
 yakından tanıyacağı konvulüsyon katmanıdır. Bu katman sonucunda elde edilen özellikler
@@ -72,9 +72,9 @@ Sınıflandırıcı olarak VGG16 derin öğrenme modeli seçilmiştir. [5] Bu mo
 
 
 <img src="./resources/vgg_16.png" />
-```
-Şekil 4 - VGG16 Mimarisi [6]
-```
+
+<p align="center">Şekil 4 - VGG16 Mimarisi [6]</p>
+
 Yapılan bu ön hazırlıklar ve parametre ayarlamalarından sonra imkanlar dahilinde yaklaşık 10-
 12 saat boyunca model 35 epoch eğitmiştir.
 
@@ -85,28 +85,23 @@ Eğitim çok başarılı sonuçlar elde etmek için yeterli değildir. Ancak eld
 edilen hata metriklerinin değerleri tablo 2’ de verilmiştir.
 
 ```
-RPN’den gelen bölgelerin sınıflandırma
-doğruluğu
-```
-
-```
-RPN sınıflandırıcı hatası 0.
-RPN regresyon hatası 0.
-Tespit edici sınıflandırma hatası 0.
-Tespit edici regresyon hatası 0.
-Toplam Hata 0.
+RPN’den gelen bölgelerin sınıflandırma doğruluğu : 0.9895
+RPN sınıflandırıcı hatası                        : 0.7705
+RPN regresyon hatası                             : 0.0082
+Tespit edici sınıflandırma hatası                : 0.0296
+Tespit edici regresyon hatası                    : 0.0214
+Toplam Hata                                      : 0.8298
 Tablo 2 - Hatalar Tablosu
 ```
 Çalışmanın sonucu Şekil 5 ve Şekil 6’da gösterilmiştir.
 
 <img src="./resources/output1.png" />
-Şekil 5 - Örnek Çıktı 1
+<p align="center">Şekil 5 - Örnek Çıktı 1</p>
 
 
 <img src="./resources/output2.png" />
-```
-Şekil 6 - Örnek Çıktı
-```
+
+<p align="center">Şekil 6 - Örnek Çıktı</p>
 
 ### KAYNAKLAR
 
