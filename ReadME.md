@@ -112,11 +112,14 @@ Tablo 2 - Hatalar Tablosu
 [3] Sharma, P. (2018) Erişim Tarihi: 2 8 .05.2019,
 https://www.analyticsvidhya.com/blog/2018/10/a-step-by-step-introduction-to-the-basic-object-
 detection-algorithms-part-1/
+
 [4] Sharma, P. (2018) Erişim Tarihi: 28.05.2019,
 https://www.analyticsvidhya.com/blog/2018/11/implementation-faster-r-cnn-python-object-
 detection/
+
 [5] Hassan, M. (2018), Erişim Tarihi: 21.05.2019, https://neurohive.io/en/popular-
 networks/vgg16/
+
 [6] Nanda, Y. (2018), Erişim Tarihi: 29.05.2019, https://www.quora.com/What-is-the-VGG-
 neural-network
 
